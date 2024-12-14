@@ -6,4 +6,3 @@ MESSAGE ?= Commit automatique
 push: 
 	git add . && git commit -m "$(MESSAGE)" && git push origin master && git push github master
 
-    
